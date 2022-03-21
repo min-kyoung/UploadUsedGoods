@@ -17,6 +17,8 @@
 		A95F420427E8689A00C90FDD /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A95F420327E8689A00C90FDD /* RxSwift */; };
 		A95F420627E8694800C90FDD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F420527E8694800C90FDD /* MainViewController.swift */; };
 		A95F420827E86A1E00C90FDD /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F420727E86A1E00C90FDD /* MainViewModel.swift */; };
+		A95F420B27E86E6700C90FDD /* TitleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F420A27E86E6700C90FDD /* TitleTextFieldCell.swift */; };
+		A95F420D27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F420C27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A95F41F527E866A700C90FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A95F420527E8694800C90FDD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A95F420727E86A1E00C90FDD /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A95F420A27E86E6700C90FDD /* TitleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCell.swift; sourceTree = "<group>"; };
+		A95F420C27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,18 @@
 			children = (
 				A95F420527E8694800C90FDD /* MainViewController.swift */,
 				A95F420727E86A1E00C90FDD /* MainViewModel.swift */,
+				A95F420E27E86E9100C90FDD /* TitleTextFieldCell */,
 			);
 			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		A95F420E27E86E9100C90FDD /* TitleTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				A95F420A27E86E6700C90FDD /* TitleTextFieldCell.swift */,
+				A95F420C27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift */,
+			);
+			path = TitleTextFieldCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A95F41E827E866A500C90FDD /* AppDelegate.swift in Sources */,
+				A95F420D27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift in Sources */,
 				A95F41EA27E866A500C90FDD /* SceneDelegate.swift in Sources */,
 				A95F420627E8694800C90FDD /* MainViewController.swift in Sources */,
+				A95F420B27E86E6700C90FDD /* TitleTextFieldCell.swift in Sources */,
 				A95F420827E86A1E00C90FDD /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
