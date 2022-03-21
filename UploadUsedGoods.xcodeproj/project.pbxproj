@@ -19,6 +19,9 @@
 		A95F420827E86A1E00C90FDD /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F420727E86A1E00C90FDD /* MainViewModel.swift */; };
 		A95F420B27E86E6700C90FDD /* TitleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F420A27E86E6700C90FDD /* TitleTextFieldCell.swift */; };
 		A95F420D27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F420C27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift */; };
+		A95F421027E87B5800C90FDD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F420F27E87B5800C90FDD /* Category.swift */; };
+		A95F421327E87B9700C90FDD /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F421227E87B9700C90FDD /* CategoryViewModel.swift */; };
+		A95F421527E87F0500C90FDD /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F421427E87F0500C90FDD /* CategoryListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		A95F420727E86A1E00C90FDD /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		A95F420A27E86E6700C90FDD /* TitleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCell.swift; sourceTree = "<group>"; };
 		A95F420C27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCellViewModel.swift; sourceTree = "<group>"; };
+		A95F420F27E87B5800C90FDD /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A95F421227E87B9700C90FDD /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		A95F421427E87F0500C90FDD /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 			children = (
 				A95F41E727E866A500C90FDD /* AppDelegate.swift */,
 				A95F41E927E866A500C90FDD /* SceneDelegate.swift */,
+				A95F421127E87B5B00C90FDD /* Entity */,
 				A95F420927E86DFE00C90FDD /* MainViewController */,
 				A95F41F027E866A700C90FDD /* Assets.xcassets */,
 				A95F41F227E866A700C90FDD /* LaunchScreen.storyboard */,
@@ -84,6 +91,7 @@
 				A95F420527E8694800C90FDD /* MainViewController.swift */,
 				A95F420727E86A1E00C90FDD /* MainViewModel.swift */,
 				A95F420E27E86E9100C90FDD /* TitleTextFieldCell */,
+				A95F421627E8840000C90FDD /* CategorViewController */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -95,6 +103,23 @@
 				A95F420C27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift */,
 			);
 			path = TitleTextFieldCell;
+			sourceTree = "<group>";
+		};
+		A95F421127E87B5B00C90FDD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A95F420F27E87B5800C90FDD /* Category.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A95F421627E8840000C90FDD /* CategorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A95F421227E87B9700C90FDD /* CategoryViewModel.swift */,
+				A95F421427E87F0500C90FDD /* CategoryListViewController.swift */,
+			);
+			path = CategorViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,10 +204,13 @@
 			files = (
 				A95F41E827E866A500C90FDD /* AppDelegate.swift in Sources */,
 				A95F420D27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift in Sources */,
+				A95F421527E87F0500C90FDD /* CategoryListViewController.swift in Sources */,
 				A95F41EA27E866A500C90FDD /* SceneDelegate.swift in Sources */,
 				A95F420627E8694800C90FDD /* MainViewController.swift in Sources */,
+				A95F421327E87B9700C90FDD /* CategoryViewModel.swift in Sources */,
 				A95F420B27E86E6700C90FDD /* TitleTextFieldCell.swift in Sources */,
 				A95F420827E86A1E00C90FDD /* MainViewModel.swift in Sources */,
+				A95F421027E87B5800C90FDD /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
