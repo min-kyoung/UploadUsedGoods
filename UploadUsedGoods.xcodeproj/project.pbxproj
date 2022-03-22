@@ -26,6 +26,7 @@
 		A9609D3A27E9A4200049C321 /* PriceTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9609D3927E9A4200049C321 /* PriceTextFieldCell.swift */; };
 		A9609D3D27E9A7E20049C321 /* DetailWriteFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9609D3C27E9A7E20049C321 /* DetailWriteFormCell.swift */; };
 		A9609D3F27E9A7F90049C321 /* DetailWriteFormCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9609D3E27E9A7F90049C321 /* DetailWriteFormCellViewModel.swift */; };
+		A9609D4527E9B01D0049C321 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9609D4427E9B01D0049C321 /* MainModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		A9609D3927E9A4200049C321 /* PriceTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCell.swift; sourceTree = "<group>"; };
 		A9609D3C27E9A7E20049C321 /* DetailWriteFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCell.swift; sourceTree = "<group>"; };
 		A9609D3E27E9A7F90049C321 /* DetailWriteFormCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCellViewModel.swift; sourceTree = "<group>"; };
+		A9609D4427E9B01D0049C321 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				A95F420527E8694800C90FDD /* MainViewController.swift */,
 				A95F420727E86A1E00C90FDD /* MainViewModel.swift */,
+				A9609D4427E9B01D0049C321 /* MainModel.swift */,
 				A9609D4327E9AFC30049C321 /* SubComponents */,
 			);
 			path = MainViewController;
@@ -248,6 +251,7 @@
 				A9609D3F27E9A7F90049C321 /* DetailWriteFormCellViewModel.swift in Sources */,
 				A95F421327E87B9700C90FDD /* CategoryViewModel.swift in Sources */,
 				A95F420B27E86E6700C90FDD /* TitleTextFieldCell.swift in Sources */,
+				A9609D4527E9B01D0049C321 /* MainModel.swift in Sources */,
 				A95F420827E86A1E00C90FDD /* MainViewModel.swift in Sources */,
 				A9609D3D27E9A7E20049C321 /* DetailWriteFormCell.swift in Sources */,
 				A95F421027E87B5800C90FDD /* Category.swift in Sources */,

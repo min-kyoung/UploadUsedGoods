@@ -23,7 +23,7 @@ struct MainViewModel {
     let itemSelected = PublishRelay<Int>()
     let submitButtonTapped = PublishRelay<Void>()
     
-    init() {
+    init(model: MainModel = MainModel()) {
         let title = Observable.just("글 제목") // placeholder
         let categoryViewModel = CategoryViewModel()
         let category = categoryViewModel
@@ -68,12 +68,7 @@ struct MainViewModel {
         // 제출 버튼을 탭했을 때만 현재 입력된 상태를 봐여하므로 submitButtonTapped을 트리거로 함
         self.presentAlert = submitButtonTapped
             .withLatestFrom(errorMessage)
-            .map { errorMessage -> (title: String, message: String?) in
-                let title = errorMessage.isEmpty ? "성공" : "실패"
-                let message = errorMessage.isEmpty ? nil : errorMessage.joined(separator: "\n")
-                return (title: title, message: message)
-                
-            }
+            .map(model.setAlert)
             .asSignal(onErrorSignalWith: .empty())
         
         // 카테고리 선택을 눌렀을 때만 푸시가 되어야 함 => filtering 필요
