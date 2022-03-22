@@ -98,10 +98,7 @@
 			children = (
 				A95F420527E8694800C90FDD /* MainViewController.swift */,
 				A95F420727E86A1E00C90FDD /* MainViewModel.swift */,
-				A95F420E27E86E9100C90FDD /* TitleTextFieldCell */,
-				A95F421627E8840000C90FDD /* CategorViewController */,
-				A9609D3B27E9A62C0049C321 /* PriceTextFieldCell */,
-				A9609D4027E9A7FF0049C321 /* DetailWriteFormCell */,
+				A9609D4327E9AFC30049C321 /* SubComponents */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -148,6 +145,17 @@
 				A9609D3E27E9A7F90049C321 /* DetailWriteFormCellViewModel.swift */,
 			);
 			path = DetailWriteFormCell;
+			sourceTree = "<group>";
+		};
+		A9609D4327E9AFC30049C321 /* SubComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A95F420E27E86E9100C90FDD /* TitleTextFieldCell */,
+				A95F421627E8840000C90FDD /* CategorViewController */,
+				A9609D3B27E9A62C0049C321 /* PriceTextFieldCell */,
+				A9609D4027E9A7FF0049C321 /* DetailWriteFormCell */,
+			);
+			path = SubComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
