@@ -22,6 +22,8 @@
 		A95F421027E87B5800C90FDD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F420F27E87B5800C90FDD /* Category.swift */; };
 		A95F421327E87B9700C90FDD /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F421227E87B9700C90FDD /* CategoryViewModel.swift */; };
 		A95F421527E87F0500C90FDD /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F421427E87F0500C90FDD /* CategoryListViewController.swift */; };
+		A9609D3827E9A0C60049C321 /* PriceTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9609D3727E9A0C60049C321 /* PriceTextFieldCellViewModel.swift */; };
+		A9609D3A27E9A4200049C321 /* PriceTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9609D3927E9A4200049C321 /* PriceTextFieldCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		A95F420F27E87B5800C90FDD /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A95F421227E87B9700C90FDD /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 		A95F421427E87F0500C90FDD /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		A9609D3727E9A0C60049C321 /* PriceTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCellViewModel.swift; sourceTree = "<group>"; };
+		A9609D3927E9A4200049C321 /* PriceTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				A95F420727E86A1E00C90FDD /* MainViewModel.swift */,
 				A95F420E27E86E9100C90FDD /* TitleTextFieldCell */,
 				A95F421627E8840000C90FDD /* CategorViewController */,
+				A9609D3B27E9A62C0049C321 /* PriceTextFieldCell */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -120,6 +125,15 @@
 				A95F421427E87F0500C90FDD /* CategoryListViewController.swift */,
 			);
 			path = CategorViewController;
+			sourceTree = "<group>";
+		};
+		A9609D3B27E9A62C0049C321 /* PriceTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				A9609D3727E9A0C60049C321 /* PriceTextFieldCellViewModel.swift */,
+				A9609D3927E9A4200049C321 /* PriceTextFieldCell.swift */,
+			);
+			path = PriceTextFieldCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +218,11 @@
 			files = (
 				A95F41E827E866A500C90FDD /* AppDelegate.swift in Sources */,
 				A95F420D27E86E8900C90FDD /* TitleTextFieldCellViewModel.swift in Sources */,
+				A9609D3827E9A0C60049C321 /* PriceTextFieldCellViewModel.swift in Sources */,
 				A95F421527E87F0500C90FDD /* CategoryListViewController.swift in Sources */,
 				A95F41EA27E866A500C90FDD /* SceneDelegate.swift in Sources */,
 				A95F420627E8694800C90FDD /* MainViewController.swift in Sources */,
+				A9609D3A27E9A4200049C321 /* PriceTextFieldCell.swift in Sources */,
 				A95F421327E87B9700C90FDD /* CategoryViewModel.swift in Sources */,
 				A95F420B27E86E6700C90FDD /* TitleTextFieldCell.swift in Sources */,
 				A95F420827E86A1E00C90FDD /* MainViewModel.swift in Sources */,
