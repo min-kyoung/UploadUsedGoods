@@ -16,6 +16,8 @@ class CategoryListViewController: UIViewController {
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
+        attribute()
+        layout()
     }
     
     required init?(coder: NSCoder) {
